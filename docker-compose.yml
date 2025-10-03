@@ -214,5 +214,5 @@ networks:
     ipam:
       driver: default
       config:
-        - subnet: ${IPV4_NETWORK:-172.66.1}/24
+        - subnet: ${IPV4_NETWORK:-172.66.1}.0/24
 
